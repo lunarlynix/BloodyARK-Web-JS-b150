@@ -24,10 +24,6 @@ export default function Document() {
           <link rel="icon" type="image/png" href="/images/favicon.png"></link>
       </Head>
       <body className="bg-bgray-bg dark">
-      <div class="bg-gray-800 border-l-4 border-red-500 text-gray-300 p-4 fixed bottom-0 md:bottom-10 right-0 md:right-10 z-50" role="alert">
-        <p class="font-bold animate-pulse">Alert! Intermittent Web Server Issues</p>
-        <p>We're currently moving to a new domain name bloody.gg, you may face issues during migration!</p>
-      </div>
         <Main />
         <NextScript />
       </body>

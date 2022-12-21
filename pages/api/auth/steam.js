@@ -6,7 +6,7 @@ import SteamStrategy from "../../../lib/steam";
 const { STEAMAPI_URL, STEAMAPI_KEY } = process.env
 
 passport.use(new SteamStrategy({
-  returnURL: 'https://bloody-ark.com/api/auth/steam/callback',
+  returnURL: 'https://bloody.gg/api/auth/steam/callback',
     realm: STEAMAPI_URL,
     apiKey: STEAMAPI_KEY
   },

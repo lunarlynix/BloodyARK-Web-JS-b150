@@ -12,7 +12,7 @@ export default function Footer() {
               <nav className="list-none mb-5 flex justify-center sm:justify-left sm:block">
               <img
                     alt="Bloody ARK Logo"
-                    src="https://bloody-ark.com/images/favicon.png"
+                    src="https://bloody.gg/images/favicon.png"
                     className="h-32 w-32"
                   />
               </nav>
@@ -46,7 +46,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white hover:text-red-300"
-                  href="https://shop.bloody-ark.com/terms/privacy"
+                  href="https://shop.bloody.gg/terms/privacy"
                 >
                   <i className="fa-solid fa-key mr-2" /> Privacy Policy
                 </a>
@@ -54,7 +54,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white hover:text-red-300"
-                  href="https://shop.bloody-ark.com/terms/checkout"
+                  href="https://shop.bloody.gg/terms/checkout"
                 >
                   <i className="fa-solid fa-book mr-2" /> Terms of Service
                 </a>
@@ -67,7 +67,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white hover:text-red-300"
-                  href="https://shop.bloody-ark.com/category/1266875"
+                  href="https://shop.bloody.gg/category/1266875"
                 >
                   <i className="fa-solid fa-gifts mr-2" /> Shop Daily Rewards
                 </a>
@@ -107,7 +107,7 @@ export default function Footer() {
               <li>
                 <a
                   className="text-white hover:text-red-300"
-                  href="https://hub.bloody-ark.com/"
+                  href="https://hub.bloody.gg/"
                 >
                   <i className="fa-solid fa-layer-group mr-2" /> Bloody Hub
                 </a>

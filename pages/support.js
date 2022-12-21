@@ -82,7 +82,7 @@ export async function getServerSideProps() {
   console.log("[ShadowmaneAPI] DEBUG: Fetched Server List Options");
 
   const res = await fetch(
-    "http://bloody-ark.com:3000/api/options/support_options"
+    "https://bloody.gg/api/options/support_options"
   );
 
   var support_options = null;

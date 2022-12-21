@@ -91,11 +91,11 @@ export async function getServerSideProps() {
   console.log("[ShadowmaneAPI] DEBUG: Fetched Server List Options");
 
   const res = await fetch(
-    "http://bloody.gg:3000/api/options/serverlist_options"
+    "https://bloody.gg/api/options/serverlist_options"
   );
 
   const servers_res = await fetch(
-    "http://bloody.gg:3000/api/servers"
+    "https://bloody.gg/api/servers"
   );
 
   const highpop_res = await fetch(
